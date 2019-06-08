@@ -2,7 +2,7 @@ const path = require('path');
 const webpack = require('webpack');
 
 module.exports = {
-    name: 'word-relay-setting',
+    name: 'number-baseball-setting',
     mode: 'development', //실서비스 : production
     devtool: 'eval', //개발용, hidden-source-map : 배포용
     resolve: {

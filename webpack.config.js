@@ -1,8 +1,9 @@
 const path = require('path');
 const webpack = require('webpack');
+//process.env.NODE_ENV = 'production'; 배포
 
 module.exports = {
-    name: 'number-baseball-setting',
+    name: 'ResponseCheck',
     mode: 'development', //실서비스 : production
     devtool: 'eval', //개발용, hidden-source-map : 배포용
     resolve: {

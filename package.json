@@ -4,7 +4,8 @@
   "description": "webpack tutorial",
   "main": "index.js",
   "scripts": {
-    "dev": "webpack-dev-server --hot"
+    "dev": "webpack-dev-server --hot",
+    "build": "webpack --config webpack.config.js"
   },
   "author": "Yujin Seo",
   "license": "MIT",

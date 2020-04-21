@@ -1,28 +1,15 @@
 <html>
-<head>
-    <meta charset="UTF-8"/>
-    <title>반응속도체크</title>
-    <style>
-        #screen {
-            width: 300px;
-            height: 200px;
-            text-align: center;
-            user-select: none;
-        }
-        #screen.waiting {
-            background-color: aqua;
-        }
-        #screen.ready {
-            background-color: red;
-            color: white;
-        }
-        #screen.now {
-            background-color: greenyellow;
-        }
-    </style>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <title>CSS3 - technics</title>
+    <link
+      rel="stylesheet"
+      href="http://cdn.jsdelivr.net/npm/xeicon@2.3.3/xeicon.min.css"
+    />
+  </head>
+  <body>
     <div id="root"></div>
-    <script src="./dist/app.js"></script> <!-- hot-loader 사용시 dist/app.js로 빌드하고싶다면 webpack설정에 publicpath 사용할것-->
-</body>
+    <script src="./dist/app.js"></script>
+    <!-- hot-loader 사용시 dist/app.js로 빌드하고싶다면 webpack설정에 publicpath 사용할것-->
+  </body>
 </html>

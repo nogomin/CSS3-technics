@@ -1,0 +1,59 @@
+.slider {
+  height: 100vh;
+}
+.slider .swiper-slide {
+  color: #092f6e;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.slider .swiper-slide.bg1 {
+  background: url('http://placeimg.com/600/600/nature') no-repeat center / cover;
+  color: #fff;
+}
+.slider .swiper-slide.bg2 {
+  background: url('http://placeimg.com/600/600/animals') no-repeat center /
+    cover;
+}
+.slider .swiper-slide.bg3 {
+  background: url('http://placeimg.com/600/600/tech') no-repeat center / cover;
+}
+.slider .swiper-slide.bg4 {
+  background: url('http://placeimg.com/600/600/people') no-repeat center / cover;
+  color: #fff;
+}
+.slider .swiper-slide span {
+  opacity: 0;
+  margin-top: -150px;
+  font-size: 20px;
+}
+.slider .swiper-slide p {
+  font-size: 100px;
+  opacity: 0;
+  font-weight: bold;
+}
+.slider .swiper-slide div {
+  font-size: 20px;
+  opacity: 0;
+}
+.slider .swiper-slide.swiper-slide-active span {
+  animation: text 1s 0.2s both;
+}
+.slider .swiper-slide.swiper-slide-active p {
+  animation: text 1s 0.4s both;
+}
+.slider .swiper-slide.swiper-slide-active div {
+  animation: text 1s 0.6s both;
+}
+@keyframes text {
+  0% {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
